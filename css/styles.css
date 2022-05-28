@@ -115,6 +115,9 @@ img {
   margin-right: 50px;
 }
 .header-tel-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -123,6 +126,9 @@ img {
 }
 
 .header-mail-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -147,6 +153,12 @@ img {
 }
 .header-contact-list {
   margin-left: auto;
+}
+.header-mail-icon {
+  margin-right: 10px;
+}
+.header-tel-icon {
+  margin-right: 10px;
 }
 /* ------------------Hero--------------------*/
 
