@@ -391,6 +391,7 @@ img {
 }
 .footer-contacts {
   display: block;
+  margin-right: 70px;
 }
 .adress-item {
   font-style: normal;
