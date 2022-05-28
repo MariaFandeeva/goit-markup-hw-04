@@ -329,6 +329,34 @@ img {
 .social-link-icon {
   fill: #afb1b8;
 }
+/*____________________Clients_____________*/
+.clients-title {
+  margin-bottom: 50px;
+}
+.client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-right: var(--tipical-margin);
+}
+.clients-icon {
+  fill: #afb1b8;
+}
+.client:not(:last-child) {
+  margin-right: var(--tipical-margin);
+}
+.client:hover,
+.client:focus {
+  border-color: var(--accent-color);
+}
+.client:hover .clients-icon,
+.client:focus .clients-icon {
+  fill: var(--accent-color);
+}
 /* ------------------Footer---------------*/
 .footer {
   background-color: #2f303a;
