@@ -139,13 +139,13 @@ img {
 .header-mail {
   margin-right: 50px;
 }
-.header-tel:hover,
-.header-tel:focus {
+.header-tel-link:hover,
+.header-tel-link:focus {
   color: var(--accent-color);
 }
 
-.header-mail:hover,
-.header-mail:focus {
+.header-mail-link:hover,
+.header-mail-link:focus {
   color: var(--accent-color);
 }
 .link.active {
@@ -159,6 +159,14 @@ img {
 }
 .header-tel-icon {
   margin-right: 10px;
+}
+.header-mail-link:focus .header-mail-icon,
+.header-mail-link:hover .header-mail-icon {
+  fill: var(--accent-color);
+}
+.header-tel-link:focus .header-tel-icon,
+.header-tel-link:hover .header-tel-icon {
+  fill: var(--accent-color);
 }
 /* ------------------Hero--------------------*/
 
@@ -215,7 +223,16 @@ img {
   display: flex;
   justify-content: space-between;
 }
-
+.preference-item-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: var(--tipical-margin);
+}
 .preference-item:not(:last-child) {
   margin-right: var(--tipical-margin);
   max-width: 270px;
