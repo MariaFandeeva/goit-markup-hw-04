@@ -180,6 +180,7 @@ img {
     url("../images/hero-photo.jpg");
   background-size: cover;
   background-color: #2f303a;
+  background-position: center;
   text-align: center;
   padding: 200px 0 200px 0;
   margin: auto;
@@ -308,7 +309,7 @@ img {
 }
 .social-list-link {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
@@ -438,13 +439,12 @@ img {
 }
 .footer-social-link {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-right: 10px;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
@@ -455,6 +455,10 @@ img {
   display: flex;
   align-items: baseline;
 }
+.footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 /* ------------------Portfolio-filters---------------*/
 .filters-btn {
   font-family: inherit;
