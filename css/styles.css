@@ -156,9 +156,11 @@ img {
 }
 .header-mail-icon {
   margin-right: 10px;
+  fill: var(--main-text-color);
 }
 .header-tel-icon {
   margin-right: 10px;
+  fill: var(--main-text-color);
 }
 .header-mail-link:focus .header-mail-icon,
 .header-mail-link:hover .header-mail-icon {
@@ -181,6 +183,8 @@ img {
   text-align: center;
   padding: 200px 0 200px 0;
   margin: auto;
+  max-width: 1600px;
+  background-position: 50% 50$;
 }
 .hero-title {
   font-weight: 900;
@@ -346,13 +350,12 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  margin-right: var(--tipical-margin);
 }
 .clients-icon {
   fill: #afb1b8;
   height: 100%;
 }
-.client:not(:last-child) {
+.clients-item:not(:last-child) {
   margin-right: var(--tipical-margin);
 }
 .client:hover,
@@ -447,9 +450,7 @@ img {
 .footer-social-link:focus {
   background-color: var(--accent-color);
 }
-.footer-social-link:not(:last-child) {
-  margin-right: 10px;
-}
+
 .footer-container {
   display: flex;
   align-items: baseline;
