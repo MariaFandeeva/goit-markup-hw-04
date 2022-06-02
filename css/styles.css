@@ -354,7 +354,6 @@ img {
 }
 .clients-icon {
   fill: #afb1b8;
-  height: 100%;
 }
 .clients-item:not(:last-child) {
   margin-right: var(--tipical-margin);
